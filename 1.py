@@ -43,7 +43,7 @@ def autoselect1():
 			ch = 0
 		if ch == 0:
 			p2.extend(cds)
-			n += 1
+			
 			print('Ваш ход')
 			break
 	if ch == 1:
