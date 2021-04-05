@@ -82,9 +82,7 @@ chn = 1
 n = 0
 m = 0
 h = []
-while True:
-	if len(p1) == 0 or len(p2) == 0:
-		break
+while len(p1) == 0 or len(p2) == 0:
 	c = filt()
 	if n % 2 == 0:
 		cdsn = list(map(int, input().split()))
