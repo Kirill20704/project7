@@ -83,7 +83,6 @@ n = 0
 m = 0
 h = []
 while len(p1) == 0 or len(p2) == 0:
-	c = filt()
 	if n % 2 == 0:
 		cdsn = list(map(int, input().split()))
 		cds = [p1[i] for i in cdsn] 
